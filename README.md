@@ -18,13 +18,17 @@ A beautiful wallpaper application built with Flutter that allows users to browse
 - View wallpapers in full screen
 - Set wallpapers as home screen or lock screen
 - Save wallpapers to device
+- Modern, intuitive UI design
+- Fast and responsive experience
 
 ## Technology Stack
 
-- Flutter
-- Dart
-- HTTP package for API requests
-- Pexels API for wallpaper images
+- **Flutter:** UI toolkit for building natively compiled applications
+- **Dart:** Programming language optimized for building mobile, desktop, and web apps
+- **HTTP package:** For API requests
+- **Pexels API:** For high-quality wallpaper images
+- **flutter_cache_manager:** For caching downloaded images
+- **path_provider:** For accessing device storage
 
 ## Getting Started
 
@@ -81,6 +85,17 @@ lib/
   │       └── searchBar.dart     # Search bar widget
   └── main.dart                  # Entry point of the application
 ```
+
+## Demo
+
+The app provides a seamless experience for wallpaper enthusiasts:
+
+1. Browse the latest trending wallpapers on the home screen
+2. Explore different categories like Nature, Architecture, Animals, etc.
+3. Search for specific wallpapers using keywords
+4. View wallpapers in full screen with high resolution
+5. Set wallpapers directly as your home screen or lock screen
+6. Save your favorite wallpapers to your device for offline use
 
 ## Contributing
 
